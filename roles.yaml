@@ -1,0 +1,3 @@
+gcloud projects add-iam-policy-binding symmetric-ion-423517-n3 \
+--member="serviceAccount:gkeupdatetriger@symmetric-ion-423517-n3.iam.gserviceaccount.com" \
+--role="roles/storage.admin"
